@@ -1,9 +1,9 @@
-import "./assets/Style.css";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div>
-      <h1>Hello React</h1>
+    <div className="main">
+      <Sidebar />
     </div>
   );
 }
